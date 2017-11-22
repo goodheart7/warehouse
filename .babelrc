@@ -1,0 +1,15 @@
+{
+  "presets": ["react-native"],
+  "plugins": [[
+    "module-alias", [
+      { "src": "./app/config", "expose": "config" },
+      { "src": "./app/actions", "expose": "actions" },
+      { "src": "./app/components", "expose": "components" },
+      { "src": "./app/reducers", "expose": "reducers" },
+      { "src": "./app/assets", "expose": "assets" },
+      { "src": "./app/routes", "expose": "routes" },
+      { "src": "./app/constants", "expose": "constants" },
+      { "src": "./app/api", "expose": "api" }
+    ]
+  ]]
+}

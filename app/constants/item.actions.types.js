@@ -1,0 +1,5 @@
+export const SCAN = "ITEM_SCAN";
+export const RECEIVE_ITEM = "RECEIVE_ITEM";
+export const RECEIVE_ERROR = "ITEM_RECEIVE_ERROR";
+export const RECEIVE_REJECTION = "ITEM_RECEIVE_REJECTION";
+export const RENEW_STATE = "ITEM_RENEW_STATE";
